@@ -8,10 +8,7 @@ export default function Register(){
     let [username,setUserName] = useState("");
     let [email,setEmail] = useState("");
     let [password,setPassword] = useState("");
-    async function  readData(){
-        const res = await api.get("/data");
-        console.log(res.data)
-    }
+   
     async function writeData(){
         // event.preventDefault();
         alert("Thank You For Signing In");
